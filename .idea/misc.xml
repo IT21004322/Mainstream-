@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable-night/bg_edit_text.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2645" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/bg_edit_text.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/bg_edit_text2.xml" value="0.2645" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/bg_edit_text3.xml" value="0.2645" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/button_background_bmi.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/card_background_bmi.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/focus_male_female_bmi.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/ic_account.xml" value="0.2645" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/ic_baseline_bar_chart_24.xml" value="0.2235" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2235" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2645" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2645" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/line.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/malefemale_bmi.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/notFocus_feamleMale_bmi.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/notfocus_male_female_bmi.xml" value="0.102" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/plusminus_bmi.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/font/alata.xml" value="0.28854166666666664" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout-night/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/account_user.xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/activity_main (2).xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/activity_main2.xml" value="0.2" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/activity_main3.xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/bg_edit_text2.xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/bmi_calculator.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/bmi_result.xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/dashboard.xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/edit_user.xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/fragment_blank2.xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/fragment_fragment1.xml" value="0.2557291666666667" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/home.xml" value="0.264" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/layout/user_account.xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/menu/navigation_items.xml" value="0.259375" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.246" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/Sculptr/app/src/main/res/layout/activity_main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

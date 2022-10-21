@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Sculptr</string>
+    <string name="heading1">Sleep and Hydration</string>
+    <string name="sleepInsight">Sleep Records</string>
+
+    <string name="hello">Hello</string>
+    <string name="btn">Add</string>
+    <string name="btn1">Edit</string>
+    <string name="btn2">Delete</string>
+    <string name="btn3">Get satarted</string>
+    <string name="btn4">register</string>
+    <string name="btn5">login</string>
+    <string name="btn6">forgot password</string>
+    <string name="Heading2">How are you doing today?</string>
+    <string name="Heading3">USER PROFILE</string>
+    <string name="Heading4">ADD DETAILS</string>
+    <string name="Heading5">EDIT DETAILS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
