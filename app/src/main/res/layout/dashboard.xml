@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FF5A5F"
+        app:itemIconTint="@color/icon_color"
+        app:itemRippleColor="@color/white"
+        app:itemTextColor="#F3F0F0"
+        app:menu="@menu/navigation_items" />
+
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="280dp"
+        android:layout_height="180dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="118dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="531dp"
+        android:text="DASHBOARD"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="35sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="402dp"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="71dp"
+        android:layout_marginEnd="-42dp"
+        android:layout_marginBottom="569dp"
+        android:text="Hello Lorem, how are you today?"
+        android:textAlignment="center"
+        android:textColor="#009688"
+        android:textSize="15sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+
+        android:layout_width="159dp"
+        android:layout_height="135dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="247dp"
+        android:layout_marginBottom="576dp"
+        android:src="@drawable/pro">
+
+    </ImageView>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="389dp"
+        android:src="@drawable/dashboard_progress_lines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/bar4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bar4"
+        android:layout_width="wrap_content"
+        android:layout_height="103dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-2dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="440dp"
+        android:text="7% weight loss"
+        android:textAlignment="center"
+        android:textColor="#FF5A5F"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/bar2"
+        android:layout_width="422dp"
+        android:layout_height="113dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="319dp"
+        android:text="1005 calories burned"
+        android:textAlignment="center"
+        android:textColor="#FF5A5F"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="199dp"
+        android:layout_marginBottom="475dp"
+        android:src="@drawable/weight" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="370dp"
+        android:src="@drawable/fire" />
+
+    <ImageView
+        android:layout_width="28dp"
+        android:layout_height="37dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-6dp"
+        android:layout_marginEnd="201dp"
+        android:layout_marginBottom="258dp"
+        android:src="@drawable/footstep" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="266dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="406dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="165dp"
+        android:src="@drawable/dashboard_progress_lines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/bar4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bar1"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="426dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="199dp"
+        android:text="6,624 steps"
+        android:textAlignment="center"
+        android:textColor="#FF5A5F"
+        android:textSize="20sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="266dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="292dp"
+        android:layout_marginEnd="71dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="279dp"
+        android:src="@drawable/dashboard_progress_lines"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/bar4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="179dp"
+        android:layout_height="126dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="528dp"
+        android:src="@drawable/fluctuation" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="214dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="101dp"
+        android:layout_marginTop="523dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="85dp"
+        android:text="Calculate your BMI"
+        android:textColor="@color/white"
+        android:textColorLink="@color/material_dynamic_neutral70"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:iconTint="@color/design_default_color_background"
+        app:rippleColor="@color/material_dynamic_neutral_variant50" />
+
+</RelativeLayout>
