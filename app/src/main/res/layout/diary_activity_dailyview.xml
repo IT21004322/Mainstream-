@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiaryDailyview">
+
+    <!--header-->
+    <TextView
+        android:id="@+id/tv_dailyViewHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6CCDC5"
+        android:padding="2dp"
+        android:fontFamily="@font/alata"
+        android:text="@string/daily_view"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--button for calories-->
+    <Button
+        android:id="@+id/btn_caloriesFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_frag_color"
+        android:layout_marginTop="12dp"
+        app:cornerRadius="100dp"
+        android:fontFamily="@font/alata"
+        android:onClick="changeFragment"
+        android:text="@string/calories"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_progressFrag"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_dailyViewHead" />
+
+    <!--button for progress-->
+    <Button
+        android:id="@+id/btn_progressFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_frag_color"
+        app:cornerRadius="100dp"
+        android:onClick="changeFragment"
+        android:fontFamily="@font/alata"
+        android:text="@string/progress"
+        android:textSize="25sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_caloriesFrag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_caloriesFrag" />
+
+    <!--fragment-->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentDefaultDV"
+        android:name="com.example.sculptr.DiaryCaloriesFragment"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_goback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_caloriesFrag"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout="@layout/diary_fragment_calories" />
+
+    <!--button to go to previous page-->
+    <Button
+        android:id="@+id/btn_goback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/btn_goBackAndDiary"
+        android:padding="15dp"
+        android:text="@string/go_back"
+        app:cornerRadius="100dp"
+        android:fontFamily="@font/alata"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--bottom navigation bar-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FF5A5F"
+        app:itemIconTint="@color/icon_color"
+        app:itemRippleColor="@color/white"
+        app:itemTextColor="#F3F0F0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navigation_items" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
