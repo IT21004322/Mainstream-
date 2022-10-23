@@ -34,5 +34,25 @@
     <string name="exercise">EXERCISE</string>
     <string name="food">FOOD</string>
 
+    <string name="insightSleep">Sleeping Log</string>
+    <string name="Insights">Weekly Sleeping Variance </string>
+    <string name="calorieHeading">Weekly Fluid Variance</string>
+    <string name="insightMainPage">Insights</string>
+    <string name="chartAverage">Lorem Ipsum</string>
+    <string name="maxVal">Lorem Ipsum</string>
+    <string name="weight_analysis">Weight Analysis</string>
+    <string name="fluid_analysis">Fluid Analysis</string>
+    <string name="sleep_analysis">Sleep Analysis</string>
+    <string name="calorie_analysis">Calorie Analysis</string>
+    <string name="fluid_intake_logs">Fluid Intake Logs</string>
+    <string name="_24_03_2022_7_30h_n23_03_2022_6_20h">24/03/2022 7.30h ...\n23/03/2022 6.20h ...</string>
+    <string name="fluid_intake_entry">Fluid Intake Entry</string>
+    <string name="litres">Litres</string>
+    <string name="millilitres">Millilitres</string>
+    <string name="alter_your_fluid_intake">Alter your fluid intake</string>
+    <string name="delete_entry">Delete Entry</string>
+    <string name="select_date">Select Date</string>
+    <string name="submit">Submit</string>
+    <!-- TODO: Remove or change this placeholder text -->
 
 </resources>
