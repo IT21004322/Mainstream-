@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiaryLogs">
+
+    <!--header-->
+    <TextView
+        android:id="@+id/tv_LogsHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#6CCDC5"
+        android:fontFamily="@font/alata"
+        android:padding="2dp"
+        android:text="@string/fitness"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!--button for weight log-->
+    <Button
+        android:id="@+id/btn_weightLogFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/btn_frag_color"
+        app:cornerRadius="100dp"
+        android:fontFamily="@font/alata"
+        android:onClick="changeFragment"
+        android:text="@string/weight_log"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toStartOf="@+id/btn_fitnessLogFrag"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_LogsHead"
+        app:layout_constraintVertical_bias="0.025" />
+
+    <!--button for fitness log-->
+    <Button
+        android:id="@+id/btn_fitnessLogFrag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/btn_frag_color"
+        app:cornerRadius="100dp"
+        android:fontFamily="@font/alata"
+        android:onClick="changeFragment"
+        android:text="@string/fitness_log"
+        android:textSize="22sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btn_weightLogFrag"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btn_weightLogFrag" />
+
+    <!--fragment-->
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentDefaultLogs"
+        android:name="com.example.sculptr.DiaryWeightLog"
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_goback"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_weightLogFrag"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout="@layout/diary_fragment_weight_log" />
+
+    <!--button to go to previous page-->
+    <Button
+        android:id="@+id/btn_goback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/btn_goBackAndDiary"
+        app:cornerRadius="100dp"
+        android:fontFamily="@font/alata"
+        android:padding="15dp"
+        android:text="@string/go_back"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!--bottom navigation bar-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#FF5A5F"
+        app:itemIconTint="@color/icon_color"
+        app:itemRippleColor="@color/white"
+        app:itemTextColor="#F3F0F0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/navigation_items" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
