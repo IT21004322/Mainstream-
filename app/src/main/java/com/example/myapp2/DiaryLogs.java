@@ -15,11 +15,11 @@ import android.widget.Toast;
 
 import com.example.myapp2.database.DBHandler.WeightDBHandler;
 import com.example.myapp2.database.Master.WeightRecordMaster;
-import com.example.sculptr.RecyclerView.DiaryWeightRecyclerViewAdapter;
-import com.example.sculptr.database.DBHandler.ExerciseDBHandler;
-import com.example.sculptr.database.DBHandler.WeightDBHandler;
-import com.example.sculptr.database.Master.WeightRecordMaster;
-import com.example.sculptr.forms.DiaryWeightLogForm;
+import com.example.myapp2.RecyclerView.DiaryWeightRecyclerViewAdapter;
+import com.example.myapp2.database.DBHandler.ExerciseDBHandler;
+import com.example.myapp2.database.DBHandler.WeightDBHandler;
+import com.example.myapp2.database.Master.WeightRecordMaster;
+import com.example.myapp2.forms.DiaryWeightLogForm;
 
 import java.util.ArrayList;
 

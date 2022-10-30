@@ -12,10 +12,10 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.sculptr.DiaryLogs;
-import com.example.sculptr.DiaryWeightUpdateForm;
-import com.example.sculptr.R;
-import com.example.sculptr.database.DBHandler.WeightDBHandler;
+import com.example.myapp2.DiaryLogs;
+import com.example.myapp2.DiaryWeightUpdateForm;
+import com.example.myapp2.R;
+import com.example.myapp2.database.DBHandler.WeightDBHandler;
 
 import java.util.ArrayList;
 
