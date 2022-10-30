@@ -8,7 +8,7 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sculptr.DiaryMainActivity;
+import com.example.myapp2.DiaryMainActivity;
 import com.example.myapp2.R;
 import com.example.myapp2.database.DBHandler.ExerciseDBHandler;
 import com.example.myapp2.models.ExerciseRecords;

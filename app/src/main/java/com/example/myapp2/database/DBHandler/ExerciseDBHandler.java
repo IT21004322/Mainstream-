@@ -5,7 +5,7 @@ import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 
-import com.example.sculptr.database.Master.ExerciseRecordMaster;
+import com.example.myapp2.database.Master.ExerciseRecordMaster;
 
 import java.util.ArrayList;
 import java.util.List;

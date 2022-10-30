@@ -53,7 +53,7 @@ public class DiaryLogs extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent i = new Intent(DiaryLogs.this, com.example.sculptr.DiaryMainActivity.class);
+                        Intent i = new Intent(DiaryLogs.this, DiaryMainActivity.class);
                         startActivity(i);
                     }
                 }

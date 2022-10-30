@@ -11,10 +11,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sculptr.DiaryMainActivity;
-import com.example.sculptr.R;
-import com.example.sculptr.database.DBHandler.MealsDBHandler;
-import com.example.sculptr.models.MealRecords;
+import com.example.myapp2.DiaryMainActivity;
+import com.example.myapp2.R;
+import com.example.myapp2.database.DBHandler.MealsDBHandler;
+import com.example.myapp2.models.MealRecords;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;

@@ -69,7 +69,7 @@ public class DiaryExerciseInformation extends AppCompatActivity {
         goback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DiaryExerciseInformation.this, com.example.sculptr.DiaryMainActivity.class);
+                Intent intent = new Intent(DiaryExerciseInformation.this, com.example.myapp2.DiaryMainActivity.class);
                 startActivity(intent);
             }
         });
@@ -80,7 +80,7 @@ public class DiaryExerciseInformation extends AppCompatActivity {
 
         dbHandler.deleteExerciseInfo(String.valueOf(exerciseID));
 
-        Intent intent = new Intent(DiaryExerciseInformation.this, com.example.sculptr.DiaryMainActivity.class);
+        Intent intent = new Intent(DiaryExerciseInformation.this, DiaryMainActivity.class);
         startActivity(intent);
     }
 

@@ -78,7 +78,7 @@ public class DiaryMealInformation extends AppCompatActivity {
             public void onClick(View view) {
                 deleteData();
 
-                Intent intent = new Intent(DiaryMealInformation.this, com.example.sculptr.DiaryMainActivity.class);
+                Intent intent = new Intent(DiaryMealInformation.this, DiaryMainActivity.class);
                 startActivity(intent);
             }
 
@@ -87,7 +87,7 @@ public class DiaryMealInformation extends AppCompatActivity {
         goback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(DiaryMealInformation.this, com.example.sculptr.DiaryMainActivity.class);
+                Intent intent = new Intent(DiaryMealInformation.this, DiaryMainActivity.class);
                 startActivity(intent);
             }
         });
