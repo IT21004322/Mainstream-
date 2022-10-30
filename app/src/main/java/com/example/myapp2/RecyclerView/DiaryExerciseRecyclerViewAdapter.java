@@ -11,8 +11,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.sculptr.R;
-import com.example.sculptr.models.ExerciseRecords;
+import com.example.myapp2.R;
+import com.example.myapp2.models.ExerciseRecords;
 
 import java.util.ArrayList;
 

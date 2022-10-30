@@ -1,4 +1,4 @@
-package com.example.sculptr;
+package com.example.myapp2;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
@@ -23,7 +23,7 @@ public class DiaryDailyview extends AppCompatActivity {
                 new View.OnClickListener() {
                     @Override
                     public void onClick(View v) {
-                        Intent i = new Intent(DiaryDailyview.this, com.example.sculptr.DiaryMainActivity.class);
+                        Intent i = new Intent(DiaryDailyview.this, com.example.myapp2.DiaryMainActivity.class);
                         startActivity(i);
                     }
                 }

@@ -1,4 +1,4 @@
-package com.example.sculptr;
+package com.example.myapp2;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -15,17 +15,17 @@ import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
-import com.example.sculptr.RecyclerView.DiaryExerciseRecyclerViewAdapter;
-import com.example.sculptr.RecyclerView.DiaryMealRecyclerViewAdapter;
-import com.example.sculptr.RecyclerView.DiaryRecyclerViewInterface;
-import com.example.sculptr.database.DBHandler.ExerciseDBHandler;
-import com.example.sculptr.database.DBHandler.MealsDBHandler;
-import com.example.sculptr.database.Master.ExerciseRecordMaster;
-import com.example.sculptr.database.Master.MealRecordMaster;
-import com.example.sculptr.forms.DiaryExerciseLogForm;
-import com.example.sculptr.forms.DiaryMealLogForm;
-import com.example.sculptr.models.ExerciseRecords;
-import com.example.sculptr.models.MealRecords;
+import com.example.myapp2.RecyclerView.DiaryExerciseRecyclerViewAdapter;
+import com.example.myapp2.RecyclerView.DiaryMealRecyclerViewAdapter;
+import com.example.myapp2.RecyclerView.DiaryRecyclerViewInterface;
+import com.example.myapp2.database.DBHandler.ExerciseDBHandler;
+import com.example.myapp2.database.DBHandler.MealsDBHandler;
+import com.example.myapp2.database.Master.ExerciseRecordMaster;
+import com.example.myapp2.database.Master.MealRecordMaster;
+import com.example.myapp2.forms.DiaryExerciseLogForm;
+import com.example.myapp2.forms.DiaryMealLogForm;
+import com.example.myapp2.models.ExerciseRecords;
+import com.example.myapp2.models.MealRecords;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 
@@ -310,29 +310,29 @@ public class DiaryMainActivity extends AppCompatActivity  {
         exercise.close();
     }
 
-    @Override
-    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
-        super.onCreateContextMenu(menu, v, menuInfo);
+//    @Override
+//    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+//        super.onCreateContextMenu(menu, v, menuInfo);
+//
+//        getMenuInflater().inflate(R.menu.context_menu,menu);
+//
+//    }
 
-        getMenuInflater().inflate(R.menu.context_menu,menu);
-
-    }
-
-    @Override
-    public boolean onContextItemSelected(@NonNull MenuItem item) {
-        switch(item.getItemId()){
-            case R.id.info:
-                Toast.makeText(this, "More selected", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.updateMeal:
-                Toast.makeText(this, "Update meal", Toast.LENGTH_SHORT).show();
-                return true;
-            case R.id.deleteMeal:
-                Toast.makeText(this, "Delete Meal", Toast.LENGTH_SHORT).show();
-                return true;
-            default:return super.onContextItemSelected(item);
-        }
-    }
+//    @Override
+//    public boolean onContextItemSelected(@NonNull MenuItem item) {
+//        switch(item.getItemId()){
+//            case R.id.info:
+//                Toast.makeText(this, "More selected", Toast.LENGTH_SHORT).show();
+//                return true;
+//            case R.id.updateMeal:
+//                Toast.makeText(this, "Update meal", Toast.LENGTH_SHORT).show();
+//                return true;
+//            case R.id.deleteMeal:
+//                Toast.makeText(this, "Delete Meal", Toast.LENGTH_SHORT).show();
+//                return true;
+//            default:return super.onContextItemSelected(item);
+//        }
+//    }
 
     private void setUpData(){
         for(int j=0;j<bname.size(); j++){

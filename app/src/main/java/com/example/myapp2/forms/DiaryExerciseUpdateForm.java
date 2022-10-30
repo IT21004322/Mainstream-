@@ -9,10 +9,10 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sculptr.DiaryExerciseInformation;
-import com.example.sculptr.R;
-import com.example.sculptr.database.DBHandler.ExerciseDBHandler;
-import com.example.sculptr.models.ExerciseRecords;
+import com.example.myapp2.DiaryExerciseInformation;
+import com.example.myapp2.R;
+import com.example.myapp2.database.DBHandler.ExerciseDBHandler;
+import com.example.myapp2.models.ExerciseRecords;
 
 public class DiaryExerciseUpdateForm extends AppCompatActivity {
 
