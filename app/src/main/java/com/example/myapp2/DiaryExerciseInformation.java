@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sculptr.database.DBHandler.ExerciseDBHandler;
-import com.example.sculptr.forms.DiaryExerciseUpdateForm;
+import com.example.myapp2.database.DBHandler.ExerciseDBHandler;
+import com.example.myapp2.forms.DiaryExerciseUpdateForm;
 
 import java.util.List;
 

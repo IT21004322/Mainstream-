@@ -2,7 +2,7 @@ package com.example.myapp2;
 
 import static org.junit.Assert.assertEquals;
 
-import com.example.sculptr.models.MealRecords;
+import com.example.myapp2.models.MealRecords;
 
 import org.junit.Before;
 import org.junit.Test;

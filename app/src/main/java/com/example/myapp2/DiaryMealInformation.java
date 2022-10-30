@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sculptr.database.DBHandler.MealsDBHandler;
-import com.example.sculptr.forms.DiaryMealUpdateForm;
+import com.example.myapp2.database.DBHandler.MealsDBHandler;
+import com.example.myapp2.forms.DiaryMealUpdateForm;
 
 import java.util.List;
 

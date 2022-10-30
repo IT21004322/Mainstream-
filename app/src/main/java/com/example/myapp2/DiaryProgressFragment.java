@@ -8,8 +8,8 @@ import android.widget.TextView;
 
 import androidx.fragment.app.Fragment;
 
-import com.example.sculptr.database.DBHandler.ExerciseDBHandler;
-import com.example.sculptr.database.DBHandler.MealsDBHandler;
+import com.example.myapp2.database.DBHandler.ExerciseDBHandler;
+import com.example.myapp2.database.DBHandler.MealsDBHandler;
 
 import java.text.DecimalFormat;
 

@@ -9,8 +9,8 @@ import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.sculptr.database.DBHandler.WeightDBHandler;
-import com.example.sculptr.models.WeightRecords;
+import com.example.myapp2.database.DBHandler.WeightDBHandler;
+import com.example.myapp2.models.WeightRecords;
 
 public class DiaryWeightUpdateForm extends AppCompatActivity {
 
