@@ -3,13 +3,6 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/MAD Content/Mainstream-/app/src/main/res/drawable-v24/custom_buttons.xml" value="0.133" />
-        <entry key="..\:/MAD Content/Mainstream-/app/src/main/res/font/arsenal.xml" value="0.2265625" />
-        <entry key="..\:/MAD Content/Mainstream-/app/src/main/res/layout-night/dave_activity_main.xml" value="0.2015625" />
-        <entry key="..\:/MAD Content/Mainstream-/app/src/main/res/layout/activity_main.xml" value="0.2015625" />
-        <entry key="..\:/MAD Content/Mainstream-/app/src/main/res/layout/activity_main3.xml" value="0.2015625" />
-        <entry key="..\:/MAD Content/Mainstream-/app/src/main/res/layout/dashboard.xml" value="0.2015625" />
-        <entry key="..\:/MAD Content/Mainstream-/app/src/main/res/layout/home.xml" value="0.2015625" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable-night/bg_edit_text.xml" value="0.1" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2645" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/drawable/bg_edit_text.xml" value="0.1" />
@@ -47,6 +40,23 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/menu/navigation_items.xml" value="0.259375" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/MyApp2/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.246" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Sculptr/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/drawable/line_dashboard.xml" value="0.1225" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/drawable/use_background.xml" value="0.1225" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout-night/dave_activity_main.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout-night/dave_activity_sleep_update.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout-night/dave_activity_two.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/account_user.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/activity_main2.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/activity_main3.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/add_userdetails.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/bmi_calculator.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/bmi_result.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/dashboard.xml" value="0.17135416666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/diary_activity_exercise_information.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/diary_activity_logs.xml" value="0.8333333333333334" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/diary_activity_main.xml" value="0.17552083333333332" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/edit_user.xml" value="0.11666666666666667" />
+        <entry key="..\:/Users/d3967/AndroidStudioProjects/Mainstream-/app/src/main/res/layout/home.xml" value="0.17135416666666667" />
       </map>
     </option>
   </component>
