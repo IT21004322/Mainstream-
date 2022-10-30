@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/row"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+    <!--activity-->
+    <TextView
+        android:id="@+id/tblDay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alata"
+        android:text="@string/date"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <!--minutes-->
+    <TextView
+        android:id="@+id/tblWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weight"
+        android:layout_marginStart="65dp"
+        android:textColor="@color/black"
+        android:fontFamily="@font/alata"
+        android:textSize="18sp" />
+
+<!--    &lt;!&ndash;change&ndash;&gt;-->
+<!--    <TextView-->
+<!--        android:id="@+id/tblChange"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="@string/change"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:fontFamily="@font/alata"-->
+<!--        android:layout_weight="0.5"-->
+<!--        android:textSize="18sp" />-->
+
+            <ImageButton
+                android:id="@+id/btn_editWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="110dp"
+                android:layout_marginTop = "-6dp"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/ic_baseline_edit_24" />
+
+            <ImageButton
+                android:id="@+id/btn_deleteWeight"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop = "-6dp"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/ic_baseline_delete_24" />
+
+    </LinearLayout>
+    <View
+        android:id="@+id/top_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider" />
+    </LinearLayout>
+</TableRow>
