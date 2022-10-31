@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserDetsActivity">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        tools:listitem="@layout/row" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="#FF5A5F"
+        app:itemIconTint="@color/icon_color"
+        app:itemRippleColor="@color/white"
+        app:itemTextColor="#F3F0F0"
+        app:menu="@menu/navigation_items" />
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="51dp"
+        android:layout_marginRight="51dp"
+        android:layout_marginBottom="214dp"
+        android:src="@drawable/dumbbell"
+        app:backgroundTint="@color/btn_goBackAndDiary"
+        app:elevation="6dp"
+        app:fabSize="normal" />
+
+    <Button
+        android:id="@+id/upbtn"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="254dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="102dp"
+        android:background="@drawable/button_background_bmi"
+        android:text="Update"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold">
+
+
+    </Button>
+
+    <Button
+        android:id="@+id/deletebtn"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginEnd="251dp"
+        android:layout_marginRight="150dp"
+        android:layout_marginBottom="102dp"
+        android:background="@drawable/button_background_bmi"
+        android:text="Delete"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/editbutton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="59dp"-->
+<!--        android:layout_marginTop="16dp"-->
+<!--        android:layout_marginEnd="296dp"-->
+<!--        android:layout_marginRight="296dp"-->
+<!--        android:layout_marginBottom="135dp"-->
+<!--        android:src="@drawable/ic_edit"-->
+<!--        app:backgroundTint="@color/btn_goBackAndDiary"-->
+<!--        app:elevation="6dp"-->
+<!--        app:fabSize="normal" />-->
+
+
+</RelativeLayout>
+
+

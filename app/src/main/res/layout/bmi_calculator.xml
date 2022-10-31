@@ -42,7 +42,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="30dp"
         android:layout_toStartOf="@id/centerverticalline"
         android:background="@drawable/notfocus_male_female_bmi">
 
@@ -99,7 +99,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginEnd="-164dp"
         android:layout_marginRight="20dp"
-        android:layout_marginBottom="24dp"
+        android:layout_marginBottom="30dp"
         android:layout_toEndOf="@id/centerverticalline"
         android:background="@drawable/notfocus_male_female_bmi">
 
@@ -141,10 +141,10 @@
     <RelativeLayout
         android:id="@+id/weight"
         android:layout_width="150dp"
-        android:layout_height="130dp"
+        android:layout_height="150dp"
         android:layout_below="@id/heightlayout"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="55dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:layout_toStartOf="@id/centerverticalline"
@@ -172,7 +172,7 @@
             android:text="45"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="40sp"
             android:textStyle="bold">
 
         </TextView>
@@ -185,9 +185,9 @@
             android:layout_alignParentStart="true"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="95dp"
-            android:layout_marginEnd="30dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginStart="103dp"
+            android:layout_marginEnd="22dp"
+            android:layout_marginBottom="60dp"
             android:text="Kg"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -243,10 +243,10 @@
     <RelativeLayout
         android:id="@+id/age"
         android:layout_width="150dp"
-        android:layout_height="130dp"
+        android:layout_height="150dp"
         android:layout_below="@id/heightlayout"
         android:layout_marginLeft="20dp"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="55dp"
         android:layout_marginRight="20dp"
         android:layout_marginBottom="20dp"
         android:layout_toEndOf="@id/centerverticalline"
@@ -274,7 +274,7 @@
             android:text="23"
             android:textAlignment="center"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="40sp"
             android:textStyle="bold">
 
         </TextView>
@@ -286,8 +286,8 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="93dp"
-            android:layout_marginBottom="50dp"
+            android:layout_marginStart="101dp"
+            android:layout_marginBottom="58dp"
             android:text="yrs"
             android:textColor="@color/white"
             android:textSize="20sp"
@@ -350,21 +350,27 @@
     </RelativeLayout>
 
     <!--Height-->
+
+    <!--Height ends-->
+
+    <!--Calculate button-->
+
+
     <RelativeLayout
         android:id="@+id/heightlayout"
-        android:layout_width="340dp"
-        android:layout_height="100dp"
+        android:layout_width="337dp"
+        android:layout_height="150dp"
         android:layout_above="@+id/centerhorizontalline"
         android:layout_centerHorizontal="true"
         android:layout_marginLeft="25dp"
         android:layout_marginRight="25dp"
-        android:layout_marginBottom="-3dp"
+        android:layout_marginBottom="-21dp"
         android:background="@drawable/card_background_bmi">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:text="Height"
             android:textAlignment="center"
             android:textColor="#FF5A5F"
@@ -379,10 +385,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
             android:layout_centerInParent="true"
-            android:layout_marginBottom="22dp"
+            android:layout_marginBottom="40dp"
             android:text="152"
             android:textColor="@color/white"
-            android:textSize="25sp"
+            android:textSize="40sp"
             android:textStyle="bold">
 
         </TextView>
@@ -392,11 +398,11 @@
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginStart="198dp"
-            android:layout_marginBottom="26dp"
+            android:layout_marginStart="213dp"
+            android:layout_marginBottom="46dp"
             android:text="cm"
             android:textColor="@color/white"
-            android:textSize="20sp"
+            android:textSize="30sp"
             android:textStyle="bold">
 
         </TextView>
@@ -408,7 +414,8 @@
             android:layout_alignParentBottom="true"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_marginBottom="6dp"
+            android:layout_marginBottom="18dp"
+            android:thumbTint="@color/white"
             android:progressTint="@color/black1">
 
         </SeekBar>
@@ -416,19 +423,14 @@
 
     </RelativeLayout>
 
-    <!--Height ends-->
-
-    <!--Calculate button-->
-
-
     <android.widget.Button
         android:id="@+id/calculatebtn"
-        android:layout_width="183dp"
+        android:layout_width="200dp"
         android:layout_height="35dp"
         android:layout_alignParentBottom="true"
         android:layout_marginLeft="150dp"
         android:layout_marginRight="150dp"
-        android:layout_marginBottom="113dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/button_background_bmi"
         android:text="Calculate"
         android:textColor="@color/white"
@@ -437,22 +439,6 @@
 
     </android.widget.Button>
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="275dp"
-        android:layout_height="49dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="75dp"
-        android:layout_marginTop="36dp"
-        android:layout_marginEnd="61dp"
-        android:layout_marginBottom="646dp"
-        android:text="Get to know your BMI value"
-        android:textColor="#FF5A5F"
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
 
     <!--Calculate button ends-->
