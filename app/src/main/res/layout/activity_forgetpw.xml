@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".ForgetPasswordMainActivity">
 
     <ImageView
         android:layout_width="67dp"
@@ -95,7 +95,6 @@
                 android:paddingHorizontal="20dp"
                 android:paddingTop="8dp"
                 android:paddingBottom="12dp"
-                android:text="Chanukya@gmail.com"
                 android:textColor="@color/black" />
 
 
@@ -120,7 +119,7 @@
             android:layout_height="match_parent">
 
             <Button
-                android:id="@+id/btn_login"
+                android:id="@+id/btn_request"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
@@ -139,7 +138,7 @@
                 android:src="@drawable/line"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/btn_login"
+                app:layout_constraintStart_toEndOf="@+id/btn_request"
                 app:layout_constraintTop_toTopOf="parent" />
 
 

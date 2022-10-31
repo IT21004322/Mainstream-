@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="3dp"
+    app:cardElevation="3dp"
+    app:cardBackgroundColor="@color/white">
+
+    <TextView
+        android:id="@+id/display_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:paddingBottom="10dp"
+        android:text="User Profile"
+        android:textColor="@color/btn_goBackAndDiary"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/personImage"
+        android:layout_width="117dp"
+        android:layout_height="94dp"
+        android:layout_below="@+id/display_text"
+        android:layout_centerHorizontal="true"
+        android:padding="2dp"
+        android:src="@drawable/user" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="575dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="156dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="0dp">
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="351dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginEnd="31dp"
+            android:layout_marginBottom="186dp"
+            app:cardCornerRadius="11dp"
+            app:cardElevation="11dp"
+            app:cardPreventCornerOverlap="false"
+            app:cardUseCompatPadding="true"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.469">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/name1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:paddingTop="10dp"
+                    android:text="Name"
+                    android:textColor="@color/btn_goBackAndDiary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:paddingTop="10dp"
+                    android:text="       Name:"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Email1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:paddingTop="10dp"
+                    android:text="Email"
+                    android:textColor="@color/btn_goBackAndDiary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:paddingTop="10dp"
+                    android:text="       Email"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Age1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:paddingTop="10dp"
+                    android:text="Age"
+                    android:textColor="@color/btn_goBackAndDiary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/Age"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:paddingTop="10dp"
+                    android:text="       Age:"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/birth1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:paddingTop="10dp"
+                    android:text="Birth date"
+                    android:textColor="@color/btn_goBackAndDiary"
+                    android:textSize="25sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/birth"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="45dp"
+                    android:paddingTop="10dp"
+                    android:text="       Birth date"
+                    android:textColor="@color/colorPrimaryDark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/edbtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="47dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="309dp"
+                    android:layout_marginRight="309dp"
+                    android:layout_marginBottom="25dp"
+                    android:background="@color/white"
+                    android:src="@drawable/ic_edit"
+                    app:elevation="6dp"
+                    app:fabSize="normal" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <!--                <Button-->
+        <!--                    android:id="@+id/editbtn"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:layout_alignParentEnd="true"-->
+        <!--                    android:layout_alignParentRight="true"-->
+        <!--                    android:text="edit" />-->
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
