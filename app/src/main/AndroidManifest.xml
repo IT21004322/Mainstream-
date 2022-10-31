@@ -52,6 +52,46 @@
         <activity
             android:name=".BMICalActivity"
             android:exported="false" />
+
+        <activity
+            android:name=".DiaryWeightUpdateForm"
+            android:exported="false" />
+        <activity
+            android:name=".forms.DiaryMealUpdateForm"
+            android:exported="false" />
+        <activity
+            android:name=".forms.DiaryExerciseUpdateForm"
+            android:exported="false" />
+        <activity
+            android:name=".DiaryExerciseInformation"
+            android:exported="false" />
+        <activity
+            android:name=".DiaryMealInformation"
+            android:exported="false" />
+        <activity
+            android:name=".forms.DiaryExerciseLogForm"
+            android:exported="false" />
+        <activity
+            android:name=".forms.DiaryWeightLogForm"
+            android:exported="false" />
+        <activity
+            android:name=".forms.DiaryMealLogForm"
+            android:exported="false" />
+        <activity
+            android:name=".DiaryLogs"
+            android:exported="false" />
+        <activity
+            android:name=".DiaryDailyview"
+            android:exported="false" />
+        <activity
+            android:name=".DiaryMainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -145,7 +145,8 @@ public class ExerciseDBHandler extends DBHelper{
 
     public double totalCalBurnt(){
         SQLiteDatabase db = getReadableDatabase();
-        Cursor cursor = db.rawQuery("Select sum(caloriesBurnt) AS Total from exercises",null);
+        Cursor cursor = db.rawQuery("Select sum(caloriesBurnt) AS Total from exercises" +
+                " where date= (Select date('now'))",null);
 
         double total = 0;
         if(cursor.moveToFirst()){
@@ -157,7 +158,8 @@ public class ExerciseDBHandler extends DBHelper{
 
     public double totalMinutes(){
         SQLiteDatabase db = getReadableDatabase();
-        Cursor cursor = db.rawQuery("Select sum(minutes) AS Total from exercises",null);
+        Cursor cursor = db.rawQuery("Select sum(minutes) AS Total from exercises" +
+                " where date= (Select date('now'))",null);
 
         double total = 0;
         if(cursor.moveToFirst()){
