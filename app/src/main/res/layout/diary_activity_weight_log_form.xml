@@ -96,6 +96,8 @@
                 android:fontFamily="@font/alata"
                 android:padding="10dp"
                 android:text="@string/save"
+                android:textColor="@color/white"
+                android:backgroundTint="@color/btn_edit"
                 android:onClick="AddData"
                 android:textSize="20sp"
                 android:textStyle="bold"

@@ -13,5 +13,5 @@
 
     <color name="btn_frag_color">#D48E88</color>
     <color name="btn_goBackAndDiary">#96D2C9</color>
-
+    <color name="btn_edit" >#FF5F5A</color>
 </resources>
