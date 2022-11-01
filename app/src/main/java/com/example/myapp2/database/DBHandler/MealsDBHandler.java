@@ -294,14 +294,14 @@ public class MealsDBHandler extends DBHelper {
     public boolean checkIfNameExists(String name, String type){
         SQLiteDatabase db = getReadableDatabase();
 
-        Cursor cursor = db.rawQuery("Select name, type from meals where (" +
+        Cursor cursor = db.rawQuery("Select name, type from meals where date =(" +
                 "Select date('now'))",null);
 
         boolean status = false;
         while(cursor.moveToNext()){
             if(name.equalsIgnoreCase(cursor.getString(cursor.getColumnIndexOrThrow(
                     MealRecordMaster.Meals.COLUMN_NAME_Name)))
-            && type.equalsIgnoreCase(cursor.getString(cursor.getColumnIndexOrThrow(
+                    && type.equalsIgnoreCase(cursor.getString(cursor.getColumnIndexOrThrow(
                     MealRecordMaster.Meals.COLUMN_NAME_TYPE)))) {
                 status = true;
                 break;
