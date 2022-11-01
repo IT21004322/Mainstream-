@@ -157,22 +157,27 @@
                     android:text="@string/edit"
                     android:textSize="20sp"
                     android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/btn_edit"
                     app:cornerRadius="100dp" />
 
                 <Button
                     android:id="@+id/btn_deleteExercise"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_toRightOf="@+id/btn_updateExercise"
                     android:layout_gravity="center"
+                    android:layout_marginLeft="20dp"
                     android:layout_marginTop="34dp"
+                    android:layout_toRightOf="@+id/btn_updateExercise"
                     android:fontFamily="@font/alata"
                     android:padding="10dp"
+                    android:textColor="@color/white"
                     android:text="@string/delete"
-                    android:layout_marginLeft="20dp"
+                    android:backgroundTint="@color/btn_edit"
                     android:textSize="20sp"
                     android:textStyle="bold"
                     app:cornerRadius="100dp" />
+
             </RelativeLayout>
 
         </RelativeLayout>

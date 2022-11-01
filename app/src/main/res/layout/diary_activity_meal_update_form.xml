@@ -228,6 +228,8 @@
                         android:fontFamily="@font/alata"
                         android:padding="10dp"
                         android:text="@string/update"
+                        android:textColor="@color/white"
+                        android:backgroundTint="@color/btn_edit"
                         android:onClick="updateData"
                         android:textSize="20sp"
                         android:textStyle="bold"

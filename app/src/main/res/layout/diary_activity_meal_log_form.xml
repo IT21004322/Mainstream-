@@ -257,6 +257,8 @@
                     android:layout_marginTop="60dp"
                     android:fontFamily="@font/alata"
                     android:padding="10dp"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/btn_edit"
                     android:text="SAVE"
                     android:onClick="AddData"
                     android:textSize="20sp"

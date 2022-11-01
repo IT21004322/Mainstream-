@@ -58,7 +58,7 @@
     <!--fragment-->
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentDefaultDV"
-        android:name="com.example.sculptr.DiaryCaloriesFragment"
+        android:name="com.example.myapp2.DiaryCaloriesFragment"
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:layout_marginBottom="20dp"

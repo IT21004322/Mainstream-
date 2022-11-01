@@ -19,7 +19,6 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!--diary-->
-
     <string name="daily_view">DAILY VIEW</string>
     <string name="calories">CALORIES</string>
     <string name="progress">PROGRESS</string>
@@ -32,5 +31,40 @@
     <string name="total">TOTAL</string>
     <string name="exercise">EXERCISE</string>
     <string name="food">FOOD</string>
+    <string name="breakfast">BREAKFAST</string>
+    <string name="lunch">LUNCH</string>
+    <string name="dinner">DINNER</string>
+    <string name="others">OTHERS</string>
+    <string name="meal_log_form">MEAL LOG FORM</string>
+    <string name="meal">MEAL</string>
+    <string name="carbohydrates">CARBOHYDRATES</string>
+    <string name="protein">PROTEIN</string>
+    <string name="fats">FATS</string>
+    <string name="vitamins">VITAMINS</string>
+    <string name="minerals">MINERALS</string>
+    <string name="dietary_fibre">DIETARY FIBRE</string>
+    <string name="weight_log_form">WEIGHT LOG FORM</string>
+    <string name="date">DATE</string>
+    <string name="weight">WEIGHT</string>
+    <string name="save">SAVE</string>
+    <string name="change">CHANGE</string>
+    <string name="meal_intake">MEAL INTAKE</string>
+    <string name="proteins">PROTEINS</string>
+    <string name="type">TYPE</string>
+    <string name="exercise_log_form">EXERCISE LOG FORM</string>
+    <string name="minutes">MINUTES</string>
+    <string name="calories_burnt">CALORIES BURNT</string>
+    <string name="workout_log">WORKOUT LOG</string>
+    <string name="delete">DELETE</string>
+    <string name="edit">EDIT</string>
+    <string name="update">UPDATE</string>
+    <string name="calories_remaining">CALORIES REMAINING</string>
+
+    <string-array name="options">
+        <item>Choose option...</item>
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
 
 </resources>
