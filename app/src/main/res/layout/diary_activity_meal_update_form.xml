@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".forms.DiaryMealUpdateForm">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/bg1" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardviewMeal"
+            android:layout_width="match_parent"
+            android:layout_height="650dp"
+            android:layout_margin="15dp"
+            app:cardCornerRadius="50dp"
+            app:layout_constraintBottom_toTopOf="@id/bottomNavigationView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="20dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|center"
+                        android:fontFamily="serif"
+                        android:padding="20dp"
+                        android:textAlignment="center"
+                        android:text="@string/meal_log_form"
+                        android:textSize="35sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/mealName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/meal"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/edit_meal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:text=""
+                        android:padding="10dp"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/caloriesView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/calories"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_calories"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:text=""
+                        android:inputType="numberDecimal"
+                        android:hint="Enter calories in kcal"
+                        android:padding="10dp"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/carbView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/carbohydrates"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_carbs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:text=""
+                        android:hint="Enter value"
+                        android:inputType="numberDecimal"
+                        android:padding="10dp"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/proteinView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/protein"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_protein"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:text=""
+                        android:hint="Enter value"
+                        android:inputType="numberDecimal"
+                        android:padding="10dp"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/fatView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/fats"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_fats"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:text=""
+                        android:hint="Enter value"
+                        android:inputType="numberDecimal"
+                        android:padding="10dp"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/vitaminView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/vitamins"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_vitamin"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:text=""
+                        android:hint="Enter value"
+                        android:inputType="numberDecimal"
+                        android:padding="10dp"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:id="@+id/mineralView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/minerals"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_mineral"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:text=""
+                        android:hint="Enter value"
+                        android:inputType="numberDecimal"
+                        android:padding="10dp"
+                        android:textSize="25sp" />
+                    <TextView
+                        android:id="@+id/fibreView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="10dp"
+                        android:text="@string/dietary_fibre"
+                        android:textSize="25sp"
+                        android:textStyle="bold" />
+
+                    <EditText
+                        android:id="@+id/edit_fibre"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/alata"
+                        android:text=""
+                        android:hint="Enter value"
+                        android:inputType="numberDecimal"
+                        android:padding="10dp"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/btn_saveMeal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="60dp"
+                        android:fontFamily="@font/alata"
+                        android:padding="10dp"
+                        android:text="@string/update"
+                        android:textColor="@color/white"
+                        android:backgroundTint="@color/btn_edit"
+                        android:onClick="updateData"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:cornerRadius="100dp" />
+
+                </LinearLayout>
+
+            </ScrollView>
+        </androidx.cardview.widget.CardView>
+
+        <!--bottom navigation bar-->
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottomNavigationView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#FF5A5F"
+            app:itemIconTint="@color/icon_color"
+            app:itemRippleColor="@color/white"
+            app:itemTextColor="#F3F0F0"
+            app:layout_constraintTop_toBottomOf="@id/cardviewMeal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/navigation_items" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
